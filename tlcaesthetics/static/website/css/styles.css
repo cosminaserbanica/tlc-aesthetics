@@ -76,6 +76,16 @@
   }
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  max-width: 2000px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -11404,25 +11414,26 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
+.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../img/header-bg.jpg");
+  background: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  margin-top: 4rem;
 }
-header.masthead .masthead-subheading {
+.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-header.masthead .masthead-heading {
+.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
@@ -11431,17 +11442,17 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead {
+  .masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
-  header.masthead .masthead-subheading {
+  .masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
-  header.masthead .masthead-heading {
+  .masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
@@ -11772,6 +11783,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
