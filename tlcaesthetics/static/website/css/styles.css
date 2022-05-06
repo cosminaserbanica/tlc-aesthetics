@@ -11452,7 +11452,7 @@ p {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .masthead-heading {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 600;
   font-style: italic;
   color: #fff;
@@ -11471,8 +11471,8 @@ p {
     padding-top: 1.5rem;
   }
   .masthead-heading {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    font-weight: 600;
     font-style: italic;
     line-height: 1.25rem;
     margin-bottom: 4rem;
