@@ -4046,6 +4046,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: black !important;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4059,14 +4060,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
-.navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  text-decoration: none;
-  white-space: nowrap;
-}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -4165,7 +4159,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    background-color: black;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4189,6 +4183,7 @@ textarea.form-control-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
+
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
   }
@@ -4218,7 +4213,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    background-color: black;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4271,7 +4266,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    background-color: black;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -5686,6 +5681,7 @@ textarea.form-control-lg {
     height: 100%;
     margin: 0;
   }
+
   .modal-fullscreen-md-down .modal-content {
     height: 100%;
     border: 0;
@@ -5701,6 +5697,17 @@ textarea.form-control-lg {
     border-radius: 0;
   }
 }
+
+@media (min-width: 991.98px){
+  .nav-mobile {
+    display: none;
+  }
+  .navbar-expand-lg .navbar-nav {
+    align-items: center;
+    margin: 0 auto!important;
+  }
+}
+
 @media (max-width: 991.98px) {
   .modal-fullscreen-lg-down {
     width: 100vw;
@@ -5708,6 +5715,11 @@ textarea.form-control-lg {
     height: 100%;
     margin: 0;
   }
+
+  .nav-desktop {
+    display: none;
+  }
+
   .modal-fullscreen-lg-down .modal-content {
     height: 100%;
     border: 0;
@@ -6570,6 +6582,7 @@ textarea.form-control-lg {
     top: 0;
     z-index: 1020;
   }
+
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
@@ -11409,6 +11422,7 @@ p {
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
+    margin-left: 1.2rem;
   }
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
