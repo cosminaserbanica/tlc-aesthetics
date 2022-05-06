@@ -11433,7 +11433,7 @@ p {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background: url("../img/hero-img.svg");
+  background: url("../img/hero-img4.svg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11467,9 +11467,9 @@ p {
     margin-bottom: 2rem;
   }
   .masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 4.5rem;
+    line-height: 4rem;
     margin-bottom: 4rem;
   }
 }
