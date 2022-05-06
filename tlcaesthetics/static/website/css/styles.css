@@ -3045,6 +3045,7 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%);
+  margin: 0.5rem;
 }
 .btn-primary:hover {
   color: #fff;
@@ -11392,7 +11393,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #D4AF37;
 }
 
 @media (min-width: 992px) {
@@ -11438,21 +11439,24 @@ p {
   background-position: center center;
   background-size: cover;
   justify-content: center;
+  padding-top: 100px!important;
 }
 .masthead-subheading {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-style: italic;
   line-height: 2rem;
   margin-bottom: 25px;
   color: #fff;
-  padding-top: 11rem;
+  text-decoration-color: red;
+  padding-top: 4rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .masthead-heading {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   font-style: italic;
   color: #fff;
+  text-decoration-color: #D4AF37;
   line-height: 1.25rem;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
