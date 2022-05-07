@@ -11422,7 +11422,6 @@ p {
 .masthead {
   height: 78vh;
   text-align: center;
-  background: url("../img/hero-img3.svg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11431,6 +11430,16 @@ p {
   padding-top: 100px!important;
 }
 
+.masthead img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .masthead-subheading {
   font-size: 1.25rem;

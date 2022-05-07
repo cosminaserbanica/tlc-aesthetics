@@ -11,7 +11,7 @@
         {% endblock %}
         
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{% static 'website/img/favicon.ico' %}" />
+        <link rel="icon" type="image/x-icon" href="{{ MEDIA_URL }}favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
@@ -44,13 +44,13 @@
                       Menu
                       <i class="fas fa-bars ms-1"></i>
                   </button>
-                  <a class="navbar-brand nav-mobile" href="{% url 'home' %}"><img src="{% static 'website/img/logo-tlc.svg' %}" alt="..." style="height: 4rem;" /></a>
+                  <a class="navbar-brand nav-mobile" href="{% url 'home' %}"><img src="{{ MEDIA_URL }}logo-tlc.svg" alt="..." style="height: 4rem;" /></a>
                   <div class="collapse navbar-collapse" id="navbarResponsive">
                       <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                           <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
                           <li class="nav-item"><a class="nav-link" href="#procedures">Procedures</a></li>
                           <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                          <a class="navbar-brand nav-desktop" href="{% url 'home' %}"><img src="{% static 'website/img/logo-tlc.svg' %}" alt="..." style="height: 5.25rem;" /></a>
+                          <a class="navbar-brand nav-desktop" href="{% url 'home' %}"><img src="{{ MEDIA_URL }}logo-tlc.svg" alt="..." style="height: 5.25rem;" /></a>
                           <li class="nav-item"><a class="nav-link" href="#Pricing">Pricing</a></li>
                           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                           <li class="nav-item"><a class="nav-link" href="#book-appoitnment">Book Appointment</a></li>
