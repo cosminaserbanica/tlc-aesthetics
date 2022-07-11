@@ -11514,7 +11514,7 @@ p {
   letter-spacing: 1px;
 }
 
-.about-text h1 {
+.about-text h1, .square3 h1 {
   color:#fff;
   font-weight: 100;
   text-transform: uppercase;
@@ -11522,7 +11522,7 @@ p {
 }
 
 @media (min-width: 260.98px) {
-  .about-text h1 {
+  .about-text h1, .square3 h1 {
     font-size: 0.9rem;
   }
   .about-text p {
@@ -11531,7 +11531,7 @@ p {
 }
 
 @media (min-width: 359.98px) {
-  .about-text h1 {
+  .about-text h1, .square3 h1 {
     font-size: 1.1rem;
   }
   .about-text p {
@@ -11540,7 +11540,7 @@ p {
 }
 
 @media (min-width: 767.98px) {
-  .about-text h1 {
+  .about-text h1, .square3 h1 {
     font-size: 1.2rem;
   }
   .about-text p {
@@ -11549,7 +11549,7 @@ p {
 }
 
 @media (min-width: 900.98px) {
-  .about-text h1 {
+  .about-text h1, .square3 h1 {
     font-size: 1rem;
   }
   .about-text p {
@@ -11558,7 +11558,7 @@ p {
 }
 
 @media (min-width: 1281.98px) {
-  .about-text h1 {
+  .about-text h1, .square3 h1 {
     font-size: 1.6rem;
   }
   .about-text p {
@@ -11914,3 +11914,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/*Certificates gallery*/
+
